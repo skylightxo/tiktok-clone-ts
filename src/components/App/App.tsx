@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Video from "./Video";
-import db from "./firebase";
+import Video from "../Video/Video";
+import db from "../../firebase";
 import "./App.css";
 
 export interface videoProps {

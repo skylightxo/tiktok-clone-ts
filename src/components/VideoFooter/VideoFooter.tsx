@@ -2,7 +2,7 @@ import React from "react";
 import "./VideoFooter.css";
 import MusicNoteIcon from "@material-ui/icons/MusicNote";
 import Ticker from "react-ticker";
-import { videoProps } from "./App";
+import { videoProps } from "../App/App";
 
 const VideoFooter: React.FC<videoProps> = ({
   channel,

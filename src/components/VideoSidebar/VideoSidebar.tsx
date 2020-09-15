@@ -4,7 +4,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import MessageIcon from "@material-ui/icons/Message";
 import ShareIcon from "@material-ui/icons/Share";
-import { videoProps } from "./App";
+import { videoProps } from "../App/App";
 
 const VideoSidebar: React.FC<videoProps> = ({
   likes,

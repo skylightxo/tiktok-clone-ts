@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import VideoFooter from "./VideoFooter";
-import VideoSidebar from "./VideoSidebar";
-import { videoProps } from "./App";
+import VideoFooter from "../VideoFooter/VideoFooter";
+import VideoSidebar from "../VideoSidebar/VideoSidebar";
+import { videoProps } from "../App/App";
 import "./Video.css";
 
 const Video: React.FC<videoProps> = ({
